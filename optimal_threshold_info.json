@@ -1,0 +1,29 @@
+{
+  "optimal_threshold": 0.05392620459707079,
+  "best_f1_score": 0.38485804416403785,
+  "precision": 0.25630252100840334,
+  "recall": 0.7721518987341772,
+  "confusion_matrix": [
+    [
+      45313,
+      177
+    ],
+    [
+      18,
+      61
+    ]
+  ],
+  "threshold_search_range": {
+    "min_threshold": 0.011702017614072002,
+    "max_threshold": 0.054796806390534684,
+    "num_thresholds_tested": 100
+  },
+  "reconstruction_error_stats": {
+    "overall_mean": 0.013477247089616744,
+    "overall_std": 0.00853528958873351,
+    "normal_mean": 0.013331340021708013,
+    "normal_std": 0.007414069536022251,
+    "fraud_mean": 0.09749386125630138,
+    "fraud_std": 0.05743771389571635
+  }
+}
