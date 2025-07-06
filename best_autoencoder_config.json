@@ -1,0 +1,23 @@
+{
+  "best_config_name": "Config_2",
+  "best_score": 0.009480334490738738,
+  "config": {
+    "name": "Medium Autoencoder",
+    "encoding_layers": [
+      32,
+      16,
+      8
+    ],
+    "activation": "tanh",
+    "epochs": 25,
+    "batch_size": 256,
+    "learning_rate": 0.0005,
+    "description": "Medium complexity with tanh activation"
+  },
+  "metrics": {
+    "train_mae": 0.013295777702494033,
+    "train_mse": 0.00048405214636784667,
+    "val_mae": 0.013331340021708014,
+    "val_mse": 0.0004946549184770953
+  }
+}

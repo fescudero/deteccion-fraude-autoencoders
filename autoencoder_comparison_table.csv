@@ -1,0 +1,5 @@
+Configuración,Descripción,Capas Codificación,Activación,Épocas,Tamaño Lote,Tasa Aprendizaje,MAE Entrenamiento,MSE Entrenamiento,MAE Validación,MSE Validación
+Config_1,Configuración simple con dimensión de codificación pequeña,"[20, 10]",relu,20,512,0.001,0.020062,0.001136,0.020109,0.001150
+Config_2,Complejidad media con activación tanh,"[32, 16, 8]",tanh,25,256,0.0005,0.013296,0.000484,0.013331,0.000495
+Config_3,Configuración compleja con capas de codificación más grandes,"[64, 32, 16]",relu,30,128,0.0001,0.015458,0.000619,0.015508,0.000633
+
