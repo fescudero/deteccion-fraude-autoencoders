@@ -15,7 +15,7 @@ Resultados preliminares:
 Plain Text
 
 📁 deteccion-fraude-autoencoders/
-├── 📂 src/                    # Todo el código Python (acá está la magia)
+├── 📂 src/                    # Python
 ├── 📂 docs/                   # Documentación técnica completa
 ├── 📂 models/                 # Los 3 autoencoders entrenados
 ├── 📂 results/                # Resultados y métricas en JSON
