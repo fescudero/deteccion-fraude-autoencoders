@@ -1,0 +1,59 @@
+{
+  "test_metrics": {
+    "f1_score": 0.352,
+    "precision": 0.23826714801444043,
+    "recall": 0.673469387755102,
+    "auc_roc": 0.9438009270956553,
+    "accuracy": 0.9957339981039992,
+    "sensitivity": 0.673469387755102,
+    "specificity": 0.9962893922341024
+  },
+  "confusion_matrix": {
+    "true_positives": 66,
+    "true_negatives": 56653,
+    "false_positives": 211,
+    "false_negatives": 32,
+    "matrix": [
+      [
+        56653,
+        211
+      ],
+      [
+        32,
+        66
+      ]
+    ]
+  },
+  "reconstruction_error_stats": {
+    "overall_mean": 0.013466569666113398,
+    "overall_std": 0.008388174545149047,
+    "normal_mean": 0.01334045292171464,
+    "normal_std": 0.007421660902447079,
+    "fraud_mean": 0.0866451671507172,
+    "fraud_std": 0.05976965782397043
+  },
+  "model_configuration": {
+    "best_config_name": "Config_2",
+    "best_score": 0.009480334490738738,
+    "config": {
+      "name": "Medium Autoencoder",
+      "encoding_layers": [
+        32,
+        16,
+        8
+      ],
+      "activation": "tanh",
+      "epochs": 25,
+      "batch_size": 256,
+      "learning_rate": 0.0005,
+      "description": "Medium complexity with tanh activation"
+    },
+    "metrics": {
+      "train_mae": 0.013295777702494033,
+      "train_mse": 0.00048405214636784667,
+      "val_mae": 0.013331340021708014,
+      "val_mse": 0.0004946549184770953
+    }
+  },
+  "optimal_threshold": 0.05392620459707079
+}
